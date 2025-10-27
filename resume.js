@@ -1,3 +1,7 @@
+//Edit the content of this file to insert new professional content.
+//Then run `node resume.js` and this script will create a docx of this resume.
+
+
 const { Document, Packer, Paragraph, TextRun, AlignmentType, TabStopType, TabStopPosition, UnderlineType } = require('docx');
 const fs = require('fs');
 
