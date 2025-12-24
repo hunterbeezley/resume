@@ -130,63 +130,42 @@ const doc = new Document({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Lead security-focused support team of 9 engineers across 3 global regions (AMER, EMEA, APAC), specializing in IAM, SSO/SCIM, API security, and security incident response")
+          new TextRun("Lead support team of 9 engineers across 3 global regions (AMER E/W, EMEA, APJ), specializing in IAM, SSO/SCIM integrations, APIs, data usage, organization management and incident response")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Spearheaded complete overhaul of New Relic's Global Technical Support internal role-based access control (RBAC) system, consolidating 6 roles into 2 streamlined roles, improving security posture and operational efficiency for 200+ support engineers")
+          new TextRun("Partnered with Support Leadership to spearhead enterprise-wide RBAC system overhaul, consolidating 6 roles into 2 streamlined roles and redesigning permissions architecture, improving security posture and operational efficiency for 200+ support engineers")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Designed and implemented NerdGraph GraphQL API endpoint for authentication domain user asset migrations, creating custom RBAC controls and enabling team self-service capabilities, eliminating engineering bottlenecks")
+          new TextRun("Designed and implemented production NerdGraph GraphQL API endpoint for authentication domain user migrations, eliminating engineering bottlenecks")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Contribute directly to New Relic's IAM codebase and maintain public-facing IAM documentation, bridging gap between support and engineering teams")
+          new TextRun("Built automation infrastructure including Google Apps Script for Slack workflow integrations, shell scripts for scheduled job execution, and launchd agents for macOS monitoring, reducing manual escalation handling time by 40%")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Built automated Slack workflows using Google Apps Script, webhook integrations, and custom API endpoints to streamline team operations, reducing manual escalation time by 40%")
+          new TextRun("Contributed authentication features to New Relic's IAM codebase (TypeScript/Node.js) and authored extensive internal wiki documentation and public-facing IAM guides, serving as primary knowledge resource for support team and enterprise customers")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Led rollout of automated call scheduling system using Google Calendar API integration, improving customer experience and reducing scheduling overhead for enterprise support")
-        ]
-      }),
-      new Paragraph({
-        style: "Bullet",
-        children: [
-          new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Serve as escalation point for critical security incidents, managing on-call rotation for enterprise customer security emergencies")
-        ]
-      }),
-      new Paragraph({
-        style: "Bullet",
-        children: [
-          new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Primary Okta subject matter expert, conducting internal training sessions and assisting enterprise customers with complex SSO/SCIM integrations and troubleshooting")
-        ]
-      }),
-      new Paragraph({
-        style: "Bullet",
-        children: [
-          new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Manage 500+ security escalations monthly, maintaining 95%+ customer satisfaction rating while achieving 10-day average time-to-resolution")
+          new TextRun("Contributed to on-call escalation rotations for incident response management and support case escalations, maintaining 95%+ customer satisfaction rating with 10-day average resolution time")
         ]
       }),
 
@@ -203,28 +182,21 @@ const doc = new Document({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Provided advanced technical support for enterprise customers on IAM, authentication, API integrations, and security configurations")
+          new TextRun("Resolved complex enterprise customer issues involving IAM architecture, SAML/OAuth authentication flows, API security configurations, and SCIM provisioning integrations")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Developed Python automation scripts and tools for SCIM user management, bulk operations, and account administration, improving team efficiency and reducing manual work")
+          new TextRun("Developed Python automation tools with New Relic's Nerdgraph API to solve tough customer problems and use-cases related to bulk user, account and organization management tasks")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Mentored junior engineers on security best practices, troubleshooting methodologies, and customer communication")
-        ]
-      }),
-      new Paragraph({
-        style: "Bullet",
-        children: [
-          new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Collaborated with product and engineering teams to identify and resolve platform security issues")
+          new TextRun("Mentored junior engineers on security incident response, troubleshooting methodologies, and customer escalation management")
         ]
       }),
 
@@ -241,14 +213,14 @@ const doc = new Document({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Delivered technical support for full-stack observability platform, resolving complex customer issues across APM, infrastructure monitoring, and synthetic monitoring")
+          new TextRun("Resolved complex technical issues for new and existing enterprise and mid-market customers")
         ]
       }),
       new Paragraph({
         style: "Bullet",
         children: [
           new TextRun({ text: "• ", size: 22, color: "2196F3", bold: true }),
-          new TextRun("Developed expertise in NRQL, REST APIs, GraphQL (NerdGraph), integrations, and platform architecture")
+          new TextRun("Consistently exceeded case resolution targets while handling diverse technical issues across observability platform, earning promotion to Senior TSE within 3 years")
         ]
       }),
 
@@ -309,14 +281,14 @@ const doc = new Document({
         style: "Skills",
         children: [
           new TextRun({ text: "Development & Automation:  ", bold: true }),
-          new TextRun("Python (Automation, Scripting & API Development) • JavaScript/Node.js • SQL • GraphQL (NerdGraph API) • REST API Design • Google Apps Script • Slack Workflow Automation • Webhook Integrations • Git/Version Control • CI/CD Concepts")
+          new TextRun("Python (Automation, Scripting & API Development) • JavaScript/Node.js/TypeScript • Terraform & Infrastructure as Code • Shell Scripting (Bash) • SQL • GraphQL (NerdGraph API) • REST API Design • Google Apps Script • Slack Workflow Automation • Webhook Integrations • Git/Version Control • CI/CD Concepts")
         ]
       }),
       new Paragraph({
         style: "Skills",
         children: [
           new TextRun({ text: "Platform & Tools:  ", bold: true }),
-          new TextRun("Full-Stack Observability (New Relic Platform) • Okta • Google Workspace Administration • NRQL (New Relic Query Language) • SCIM Provisioning • Authentication Protocols • Cloud Security Concepts")
+          new TextRun("Full-Stack Observability (New Relic Platform) • Okta • Google Workspace Administration • Google Sheets API • Google Calendar API • NRQL (New Relic Query Language) • SCIM Provisioning • Authentication Protocols • Cloud Security Concepts • macOS Automation (launchd)")
         ]
       }),
       new Paragraph({
